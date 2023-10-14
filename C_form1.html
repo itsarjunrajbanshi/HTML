@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <!-- see in the search bar for data -->
+    <form>
+        <fieldset>
+            <legend>HTML FORM</legend>
+            <label for="abc"> Enter F Name: <input name="fname" type="text" id="abc"></label> <br><br>
+            <label for="bc"> Enter L Name: <input name="lname" type="text" id="bc"></label> <br><br>
+            <label for="bcd"> Enter Age: <input name="age" type="number" min="13" max="19" id="bcd"></label> <br><br>
+            <label for="cde"> Enter Gender: <input name="gender" type="radio" value="boy" id="cde">Male</label> <br><br>
+            <label for="def"> Enter Gender: <input name="gender" type="radio" value="girl" id="def">Female</label>
+            <br><br>
+            <select name="Years" multiple size="3">
+                <option>2011</option>
+                <option>2012</option>
+                <option>2013</option>
+                <option>2014</option>
+            </select><br><br>
+            <select name="Course" multiple>
+                <optgroup label="Web design">
+                    <option>Html</option>
+                    <option>CSS</option>
+                    <option>PS</option>
+                </optgroup>
+                <optgroup label="Programming">
+                    <option>Javascript</option>
+                    <option>Python</option>
+                    <option>PHP</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <input type="text" name="country" list="country">
+            <datalist id="country">
+                <option>Nepal</option>
+                <option>Bhutan</option>
+                <option>India</option>
+                <option>China</option>
+            </datalist><br><br>
+            Color: <input type="color" name="color"><br><br>
+            Date: <input type="date" name="date">
+            <br><br>
+            <button>send</button>
+        </fieldset>
+    </form>
+
+
+
+
+</body>
+
+</html>
